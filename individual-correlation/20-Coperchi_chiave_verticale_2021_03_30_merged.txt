@@ -1,0 +1,59 @@
+Here are the columns and their correlation to the 'Area' column:
+Inert gas flow MIN                       0.182265
+Inert gas flow MAX                       0.182265
+Inert gas flow AVG                       0.182265
+Shielding gas flow rate MIN              0.038131
+Shielding gas flow rate AVG              0.038131
+Shielding gas flow rate MAX              0.038131
+Ambient humidity AVG                    -0.010570
+Ambient humidity MAX                    -0.010570
+Ambient humidity MIN                    -0.010570
+Elapsed_Time                            -0.215152
+Ambient temperature MIN                 -0.297661
+Ambient temperature AVG                 -0.297661
+Ambient temperature MAX                 -0.297661
+Flow humidity (in) MIN                  -0.322659
+Flow humidity (in) AVG                  -0.322659
+Flow humidity (in) MAX                  -0.322659
+LayerID                                 -0.417523
+Shielding gas temperature (input) MAX   -0.468103
+Shielding gas temperature (input) AVG   -0.468103
+Shielding gas temperature (input) MIN   -0.468103
+Preheat temperature MIN                 -0.471748
+Preheat temperature AVG                 -0.471748
+Preheat temperature MAX                 -0.471748
+O2 content (Process) MIN                -0.476321
+O2 content (Process) AVG                -0.476321
+O2 content (Process) MAX                -0.476321
+Anomalous                                     NaN
+************************************************************
+Here are the features and their importance scores:
+                                  Feature  Importance
+0                                 LayerID    0.311842
+19                Preheat temperature MIN    0.088376
+21                Preheat temperature MAX    0.074540
+13  Shielding gas temperature (input) MIN    0.061771
+23               O2 content (Process) AVG    0.059031
+26                           Elapsed_Time    0.057903
+15  Shielding gas temperature (input) MAX    0.054211
+20                Preheat temperature AVG    0.053848
+14  Shielding gas temperature (input) AVG    0.044528
+24               O2 content (Process) MAX    0.042166
+7                  Flow humidity (in) MIN    0.032915
+9                  Flow humidity (in) MAX    0.026931
+22               O2 content (Process) MIN    0.021526
+8                  Flow humidity (in) AVG    0.021125
+1                    Ambient humidity MIN    0.009917
+6                 Ambient temperature MAX    0.009048
+2                    Ambient humidity AVG    0.008586
+16                     Inert gas flow MIN    0.006130
+3                    Ambient humidity MAX    0.004909
+18                     Inert gas flow MAX    0.003427
+5                 Ambient temperature AVG    0.003160
+17                     Inert gas flow AVG    0.001798
+4                 Ambient temperature MIN    0.001206
+12            Shielding gas flow rate MAX    0.000568
+11            Shielding gas flow rate AVG    0.000366
+10            Shielding gas flow rate MIN    0.000174
+25                              Anomalous    0.000000
+************************************************************

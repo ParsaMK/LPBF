@@ -1,0 +1,59 @@
+Here are the columns and their correlation to the 'Area' column:
+Flow humidity (in) MIN                   0.507844
+Flow humidity (in) AVG                   0.504830
+Flow humidity (in) MAX                   0.497818
+LayerID                                  0.474146
+Ambient temperature MIN                  0.332430
+Ambient temperature AVG                  0.332036
+Ambient temperature MAX                  0.331525
+Shielding gas temperature (input) MIN    0.228807
+Shielding gas temperature (input) AVG    0.228620
+Shielding gas temperature (input) MAX    0.228422
+Preheat temperature MAX                  0.168277
+Preheat temperature AVG                  0.168238
+Preheat temperature MIN                  0.168187
+Anomalous                                0.156179
+O2 content (Process) MIN                 0.147267
+O2 content (Process) AVG                 0.142122
+O2 content (Process) MAX                 0.134964
+Ambient humidity MIN                     0.106313
+Ambient humidity AVG                     0.100839
+Ambient humidity MAX                     0.095149
+Shielding gas flow rate MIN              0.056195
+Shielding gas flow rate AVG              0.038493
+Shielding gas flow rate MAX              0.014920
+Inert gas flow MIN                      -0.090572
+Inert gas flow AVG                      -0.094002
+Inert gas flow MAX                      -0.095397
+Elapsed_Time                            -0.495560
+************************************************************
+Here are the features and their importance scores:
+                                  Feature  Importance
+0                                 LayerID    0.954567
+13  Shielding gas temperature (input) MIN    0.013474
+14  Shielding gas temperature (input) AVG    0.008548
+15  Shielding gas temperature (input) MAX    0.007244
+21                Preheat temperature MAX    0.003033
+19                Preheat temperature MIN    0.002212
+20                Preheat temperature AVG    0.002056
+26                           Elapsed_Time    0.001436
+9                  Flow humidity (in) MAX    0.000932
+2                    Ambient humidity AVG    0.000857
+3                    Ambient humidity MAX    0.000841
+7                  Flow humidity (in) MIN    0.000761
+8                  Flow humidity (in) AVG    0.000745
+1                    Ambient humidity MIN    0.000587
+5                 Ambient temperature AVG    0.000480
+25                              Anomalous    0.000447
+23               O2 content (Process) AVG    0.000393
+4                 Ambient temperature MIN    0.000351
+6                 Ambient temperature MAX    0.000286
+24               O2 content (Process) MAX    0.000223
+11            Shielding gas flow rate AVG    0.000184
+22               O2 content (Process) MIN    0.000174
+10            Shielding gas flow rate MIN    0.000075
+12            Shielding gas flow rate MAX    0.000060
+18                     Inert gas flow MAX    0.000011
+16                     Inert gas flow MIN    0.000011
+17                     Inert gas flow AVG    0.000011
+************************************************************
